@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D187DF91EF916A0006CC2C7 /* AJMPMediaPreviewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D187DF81EF916A0006CC2C7 /* AJMPMediaPreviewerViewController.m */; };
+		9D187DFC1EF923D3006CC2C7 /* AJMPMediaPreviewerVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D187DFB1EF923D3006CC2C7 /* AJMPMediaPreviewerVideoPlayerView.m */; };
 		9D483A0D1EDA9B6000A8F58B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A0C1EDA9B6000A8F58B /* main.m */; };
 		9D483A101EDA9B6000A8F58B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A0F1EDA9B6000A8F58B /* AppDelegate.m */; };
 		9D483A131EDA9B6000A8F58B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A121EDA9B6000A8F58B /* ViewController.m */; };
@@ -15,6 +17,23 @@
 		9D483A1B1EDA9B6000A8F58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D483A191EDA9B6000A8F58B /* LaunchScreen.storyboard */; };
 		9D483A261EDA9B6000A8F58B /* AJAlbumOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A251EDA9B6000A8F58B /* AJAlbumOperationTests.m */; };
 		9D483A311EDA9B6000A8F58B /* AJAlbumOperationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A301EDA9B6000A8F58B /* AJAlbumOperationUITests.m */; };
+		9D483A831EE00AF100A8F58B /* AJMPAlbumInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A751EE00AF100A8F58B /* AJMPAlbumInfoModel.m */; };
+		9D483A841EE00AF100A8F58B /* AJMPMediaInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A771EE00AF100A8F58B /* AJMPMediaInfoModel.m */; };
+		9D483A851EE00AF200A8F58B /* AJMPAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A7A1EE00AF100A8F58B /* AJMPAlbumCell.m */; };
+		9D483A861EE00AF200A8F58B /* AJMPAlbumListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A7C1EE00AF100A8F58B /* AJMPAlbumListView.m */; };
+		9D483A871EE00AF200A8F58B /* AJMPBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A7E1EE00AF100A8F58B /* AJMPBottomView.m */; };
+		9D483A881EE00AF200A8F58B /* AJMPMediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A801EE00AF100A8F58B /* AJMPMediaCell.m */; };
+		9D483A891EE00AF200A8F58B /* AJMPNavBarTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A821EE00AF100A8F58B /* AJMPNavBarTitleView.m */; };
+		9D483A8E1EE00C1500A8F58B /* AJMPMultipleImageSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A8D1EE00C1500A8F58B /* AJMPMultipleImageSelectViewController.m */; };
+		9D483A921EE13CE500A8F58B /* AJMPAuthorizationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A911EE13CE500A8F58B /* AJMPAuthorizationTool.m */; };
+		9D483A981EE1417A00A8F58B /* AJMPDeniedAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D483A971EE1417A00A8F58B /* AJMPDeniedAuthViewController.m */; };
+		9D667BA81EFABBC9002B4C0C /* AJMPMediaPreviewerImagePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D667BA71EFABBC9002B4C0C /* AJMPMediaPreviewerImagePlayerView.m */; };
+		9D667BAB1EFABE8E002B4C0C /* AJMPMediaPreviewerImagePlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D667BAA1EFABE8E002B4C0C /* AJMPMediaPreviewerImagePlayerCell.m */; };
+		9DFAFC941EF77D7E00132909 /* AJMediaSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAFC931EF77D7E00132909 /* AJMediaSaveTool.m */; };
+		9DFAFC971EF7DF0800132909 /* AJImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAFC961EF7DF0800132909 /* AJImageCropperViewController.m */; };
+		9DFAFC9A1EF7E16F00132909 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAFC991EF7E16F00132909 /* UIImage+FixOrientation.m */; };
+		9DFAFC9D1EF7E1A900132909 /* AJImageCropperScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAFC9C1EF7E1A900132909 /* AJImageCropperScrollView.m */; };
+		9DFAFCA01EF7E27100132909 /* AJImageCropperTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAFC9F1EF7E27100132909 /* AJImageCropperTouchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D187DF71EF916A0006CC2C7 /* AJMPMediaPreviewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPMediaPreviewerViewController.h; sourceTree = "<group>"; };
+		9D187DF81EF916A0006CC2C7 /* AJMPMediaPreviewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPMediaPreviewerViewController.m; sourceTree = "<group>"; };
+		9D187DFA1EF923D3006CC2C7 /* AJMPMediaPreviewerVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPMediaPreviewerVideoPlayerView.h; sourceTree = "<group>"; };
+		9D187DFB1EF923D3006CC2C7 /* AJMPMediaPreviewerVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPMediaPreviewerVideoPlayerView.m; sourceTree = "<group>"; };
+		9D187DFE1EF9310E006CC2C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9D483A081EDA9B6000A8F58B /* AJAlbumOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJAlbumOperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D483A0C1EDA9B6000A8F58B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D483A0E1EDA9B6000A8F58B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +75,42 @@
 		9D483A2C1EDA9B6000A8F58B /* AJAlbumOperationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJAlbumOperationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D483A301EDA9B6000A8F58B /* AJAlbumOperationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJAlbumOperationUITests.m; sourceTree = "<group>"; };
 		9D483A321EDA9B6000A8F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D483A6D1EDFF7F700A8F58B /* AJMPDefinitionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJMPDefinitionHeader.h; sourceTree = "<group>"; };
+		9D483A741EE00AF100A8F58B /* AJMPAlbumInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPAlbumInfoModel.h; sourceTree = "<group>"; };
+		9D483A751EE00AF100A8F58B /* AJMPAlbumInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPAlbumInfoModel.m; sourceTree = "<group>"; };
+		9D483A761EE00AF100A8F58B /* AJMPMediaInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPMediaInfoModel.h; sourceTree = "<group>"; };
+		9D483A771EE00AF100A8F58B /* AJMPMediaInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPMediaInfoModel.m; sourceTree = "<group>"; };
+		9D483A791EE00AF100A8F58B /* AJMPAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPAlbumCell.h; sourceTree = "<group>"; };
+		9D483A7A1EE00AF100A8F58B /* AJMPAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPAlbumCell.m; sourceTree = "<group>"; };
+		9D483A7B1EE00AF100A8F58B /* AJMPAlbumListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPAlbumListView.h; sourceTree = "<group>"; };
+		9D483A7C1EE00AF100A8F58B /* AJMPAlbumListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPAlbumListView.m; sourceTree = "<group>"; };
+		9D483A7D1EE00AF100A8F58B /* AJMPBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPBottomView.h; sourceTree = "<group>"; };
+		9D483A7E1EE00AF100A8F58B /* AJMPBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPBottomView.m; sourceTree = "<group>"; };
+		9D483A7F1EE00AF100A8F58B /* AJMPMediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPMediaCell.h; sourceTree = "<group>"; };
+		9D483A801EE00AF100A8F58B /* AJMPMediaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPMediaCell.m; sourceTree = "<group>"; };
+		9D483A811EE00AF100A8F58B /* AJMPNavBarTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPNavBarTitleView.h; sourceTree = "<group>"; };
+		9D483A821EE00AF100A8F58B /* AJMPNavBarTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPNavBarTitleView.m; sourceTree = "<group>"; };
+		9D483A8C1EE00C1500A8F58B /* AJMPMultipleImageSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPMultipleImageSelectViewController.h; sourceTree = "<group>"; };
+		9D483A8D1EE00C1500A8F58B /* AJMPMultipleImageSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPMultipleImageSelectViewController.m; sourceTree = "<group>"; };
+		9D483A8F1EE01A0C00A8F58B /* AJMediaPickerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJMediaPickerHeader.h; sourceTree = "<group>"; };
+		9D483A901EE13CE500A8F58B /* AJMPAuthorizationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPAuthorizationTool.h; sourceTree = "<group>"; };
+		9D483A911EE13CE500A8F58B /* AJMPAuthorizationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPAuthorizationTool.m; sourceTree = "<group>"; };
+		9D483A961EE1417A00A8F58B /* AJMPDeniedAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPDeniedAuthViewController.h; sourceTree = "<group>"; };
+		9D483A971EE1417A00A8F58B /* AJMPDeniedAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPDeniedAuthViewController.m; sourceTree = "<group>"; };
+		9D667BA61EFABBC9002B4C0C /* AJMPMediaPreviewerImagePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPMediaPreviewerImagePlayerView.h; sourceTree = "<group>"; };
+		9D667BA71EFABBC9002B4C0C /* AJMPMediaPreviewerImagePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPMediaPreviewerImagePlayerView.m; sourceTree = "<group>"; };
+		9D667BA91EFABE8E002B4C0C /* AJMPMediaPreviewerImagePlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMPMediaPreviewerImagePlayerCell.h; sourceTree = "<group>"; };
+		9D667BAA1EFABE8E002B4C0C /* AJMPMediaPreviewerImagePlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMPMediaPreviewerImagePlayerCell.m; sourceTree = "<group>"; };
+		9DFAFC921EF77D7E00132909 /* AJMediaSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJMediaSaveTool.h; sourceTree = "<group>"; };
+		9DFAFC931EF77D7E00132909 /* AJMediaSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJMediaSaveTool.m; sourceTree = "<group>"; };
+		9DFAFC951EF7DF0800132909 /* AJImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJImageCropperViewController.h; sourceTree = "<group>"; };
+		9DFAFC961EF7DF0800132909 /* AJImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJImageCropperViewController.m; sourceTree = "<group>"; };
+		9DFAFC981EF7E16F00132909 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		9DFAFC991EF7E16F00132909 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		9DFAFC9B1EF7E1A900132909 /* AJImageCropperScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJImageCropperScrollView.h; sourceTree = "<group>"; };
+		9DFAFC9C1EF7E1A900132909 /* AJImageCropperScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJImageCropperScrollView.m; sourceTree = "<group>"; };
+		9DFAFC9E1EF7E27100132909 /* AJImageCropperTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJImageCropperTouchView.h; sourceTree = "<group>"; };
+		9DFAFC9F1EF7E27100132909 /* AJImageCropperTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJImageCropperTouchView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +138,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D187DF61EF91677006CC2C7 /* MediaPreviewer */ = {
+			isa = PBXGroup;
+			children = (
+				9D187DF71EF916A0006CC2C7 /* AJMPMediaPreviewerViewController.h */,
+				9D187DF81EF916A0006CC2C7 /* AJMPMediaPreviewerViewController.m */,
+				9D187DFA1EF923D3006CC2C7 /* AJMPMediaPreviewerVideoPlayerView.h */,
+				9D187DFB1EF923D3006CC2C7 /* AJMPMediaPreviewerVideoPlayerView.m */,
+				9D667BA61EFABBC9002B4C0C /* AJMPMediaPreviewerImagePlayerView.h */,
+				9D667BA71EFABBC9002B4C0C /* AJMPMediaPreviewerImagePlayerView.m */,
+				9D667BA91EFABE8E002B4C0C /* AJMPMediaPreviewerImagePlayerCell.h */,
+				9D667BAA1EFABE8E002B4C0C /* AJMPMediaPreviewerImagePlayerCell.m */,
+			);
+			path = MediaPreviewer;
+			sourceTree = "<group>";
+		};
+		9D187DFD1EF9310E006CC2C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D187DFE1EF9310E006CC2C7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D4839FF1EDA9B6000A8F58B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +168,7 @@
 				9D483A241EDA9B6000A8F58B /* AJAlbumOperationTests */,
 				9D483A2F1EDA9B6000A8F58B /* AJAlbumOperationUITests */,
 				9D483A091EDA9B6000A8F58B /* Products */,
+				9D187DFD1EF9310E006CC2C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +185,7 @@
 		9D483A0A1EDA9B6000A8F58B /* AJAlbumOperation */ = {
 			isa = PBXGroup;
 			children = (
+				9D483A3E1EDA9CA800A8F58B /* Classes */,
 				9D483A0E1EDA9B6000A8F58B /* AppDelegate.h */,
 				9D483A0F1EDA9B6000A8F58B /* AppDelegate.m */,
 				9D483A111EDA9B6000A8F58B /* ViewController.h */,
@@ -138,6 +223,118 @@
 				9D483A321EDA9B6000A8F58B /* Info.plist */,
 			);
 			path = AJAlbumOperationUITests;
+			sourceTree = "<group>";
+		};
+		9D483A3E1EDA9CA800A8F58B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D483A521EDAA4B000A8F58B /* AJMediaPicker */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D483A521EDAA4B000A8F58B /* AJMediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9D483A8F1EE01A0C00A8F58B /* AJMediaPickerHeader.h */,
+				9D187DF61EF91677006CC2C7 /* MediaPreviewer */,
+				9DFAFC911EF77D6900132909 /* MediaSaveTool */,
+				9D483A8A1EE00B3700A8F58B /* AuthorizationTool */,
+				9D483A8B1EE00B3700A8F58B /* ImageCropper */,
+				9D483A711EE00AF100A8F58B /* MediaPicker */,
+				9D483A621EDFC81200A8F58B /* Source */,
+			);
+			path = AJMediaPicker;
+			sourceTree = "<group>";
+		};
+		9D483A621EDFC81200A8F58B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9D483A6D1EDFF7F700A8F58B /* AJMPDefinitionHeader.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9D483A711EE00AF100A8F58B /* MediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9D483A721EE00AF100A8F58B /* Controller */,
+				9D483A731EE00AF100A8F58B /* Model */,
+				9D483A781EE00AF100A8F58B /* View */,
+			);
+			path = MediaPicker;
+			sourceTree = "<group>";
+		};
+		9D483A721EE00AF100A8F58B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D483A8C1EE00C1500A8F58B /* AJMPMultipleImageSelectViewController.h */,
+				9D483A8D1EE00C1500A8F58B /* AJMPMultipleImageSelectViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9D483A731EE00AF100A8F58B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D483A741EE00AF100A8F58B /* AJMPAlbumInfoModel.h */,
+				9D483A751EE00AF100A8F58B /* AJMPAlbumInfoModel.m */,
+				9D483A761EE00AF100A8F58B /* AJMPMediaInfoModel.h */,
+				9D483A771EE00AF100A8F58B /* AJMPMediaInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D483A781EE00AF100A8F58B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D483A791EE00AF100A8F58B /* AJMPAlbumCell.h */,
+				9D483A7A1EE00AF100A8F58B /* AJMPAlbumCell.m */,
+				9D483A7B1EE00AF100A8F58B /* AJMPAlbumListView.h */,
+				9D483A7C1EE00AF100A8F58B /* AJMPAlbumListView.m */,
+				9D483A7D1EE00AF100A8F58B /* AJMPBottomView.h */,
+				9D483A7E1EE00AF100A8F58B /* AJMPBottomView.m */,
+				9D483A7F1EE00AF100A8F58B /* AJMPMediaCell.h */,
+				9D483A801EE00AF100A8F58B /* AJMPMediaCell.m */,
+				9D483A811EE00AF100A8F58B /* AJMPNavBarTitleView.h */,
+				9D483A821EE00AF100A8F58B /* AJMPNavBarTitleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D483A8A1EE00B3700A8F58B /* AuthorizationTool */ = {
+			isa = PBXGroup;
+			children = (
+				9D483A961EE1417A00A8F58B /* AJMPDeniedAuthViewController.h */,
+				9D483A971EE1417A00A8F58B /* AJMPDeniedAuthViewController.m */,
+				9D483A901EE13CE500A8F58B /* AJMPAuthorizationTool.h */,
+				9D483A911EE13CE500A8F58B /* AJMPAuthorizationTool.m */,
+			);
+			path = AuthorizationTool;
+			sourceTree = "<group>";
+		};
+		9D483A8B1EE00B3700A8F58B /* ImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				9DFAFC981EF7E16F00132909 /* UIImage+FixOrientation.h */,
+				9DFAFC991EF7E16F00132909 /* UIImage+FixOrientation.m */,
+				9DFAFC951EF7DF0800132909 /* AJImageCropperViewController.h */,
+				9DFAFC961EF7DF0800132909 /* AJImageCropperViewController.m */,
+				9DFAFC9B1EF7E1A900132909 /* AJImageCropperScrollView.h */,
+				9DFAFC9C1EF7E1A900132909 /* AJImageCropperScrollView.m */,
+				9DFAFC9E1EF7E27100132909 /* AJImageCropperTouchView.h */,
+				9DFAFC9F1EF7E27100132909 /* AJImageCropperTouchView.m */,
+			);
+			path = ImageCropper;
+			sourceTree = "<group>";
+		};
+		9DFAFC911EF77D6900132909 /* MediaSaveTool */ = {
+			isa = PBXGroup;
+			children = (
+				9DFAFC921EF77D7E00132909 /* AJMediaSaveTool.h */,
+				9DFAFC931EF77D7E00132909 /* AJMediaSaveTool.m */,
+			);
+			path = MediaSaveTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +474,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D483A131EDA9B6000A8F58B /* ViewController.m in Sources */,
+				9D483A981EE1417A00A8F58B /* AJMPDeniedAuthViewController.m in Sources */,
+				9DFAFC9D1EF7E1A900132909 /* AJImageCropperScrollView.m in Sources */,
+				9D667BA81EFABBC9002B4C0C /* AJMPMediaPreviewerImagePlayerView.m in Sources */,
+				9DFAFC9A1EF7E16F00132909 /* UIImage+FixOrientation.m in Sources */,
+				9D483A921EE13CE500A8F58B /* AJMPAuthorizationTool.m in Sources */,
+				9D483A831EE00AF100A8F58B /* AJMPAlbumInfoModel.m in Sources */,
+				9D187DF91EF916A0006CC2C7 /* AJMPMediaPreviewerViewController.m in Sources */,
 				9D483A101EDA9B6000A8F58B /* AppDelegate.m in Sources */,
+				9D667BAB1EFABE8E002B4C0C /* AJMPMediaPreviewerImagePlayerCell.m in Sources */,
+				9D483A871EE00AF200A8F58B /* AJMPBottomView.m in Sources */,
+				9DFAFC941EF77D7E00132909 /* AJMediaSaveTool.m in Sources */,
+				9DFAFC971EF7DF0800132909 /* AJImageCropperViewController.m in Sources */,
+				9D483A841EE00AF100A8F58B /* AJMPMediaInfoModel.m in Sources */,
+				9DFAFCA01EF7E27100132909 /* AJImageCropperTouchView.m in Sources */,
+				9D483A891EE00AF200A8F58B /* AJMPNavBarTitleView.m in Sources */,
+				9D187DFC1EF923D3006CC2C7 /* AJMPMediaPreviewerVideoPlayerView.m in Sources */,
 				9D483A0D1EDA9B6000A8F58B /* main.m in Sources */,
+				9D483A881EE00AF200A8F58B /* AJMPMediaCell.m in Sources */,
+				9D483A851EE00AF200A8F58B /* AJMPAlbumCell.m in Sources */,
+				9D483A8E1EE00C1500A8F58B /* AJMPMultipleImageSelectViewController.m in Sources */,
+				9D483A861EE00AF200A8F58B /* AJMPAlbumListView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +645,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M953KLT6PD;
 				INFOPLIST_FILE = AJAlbumOperation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJAlbumOperation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +658,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M953KLT6PD;
 				INFOPLIST_FILE = AJAlbumOperation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJAlbumOperation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +734,7 @@
 				9D483A371EDA9B6000A8F58B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D483A381EDA9B6000A8F58B /* Build configuration list for PBXNativeTarget "AJAlbumOperationTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +743,7 @@
 				9D483A3A1EDA9B6000A8F58B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D483A3B1EDA9B6000A8F58B /* Build configuration list for PBXNativeTarget "AJAlbumOperationUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +752,7 @@
 				9D483A3D1EDA9B6000A8F58B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
