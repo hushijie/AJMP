@@ -199,23 +199,28 @@
         
         _albumInfoModelArray=[NSMutableArray array];
         
+        
         //获取有图片或视频资源的相册！
+        
+        
+        /*
+         资源刷选规则
+         */
+        PHFetchOptions * mediaOptions = [[PHFetchOptions alloc] init];
+        mediaOptions.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"modificationDate" ascending:NO]];//图片配置设置排序规则(按图片修改时间（modificationDate）的时间倒序顺序排序、creationDate-图片创建时间)
+        
+        if (_mediaPickerType==AJMediaPickerType_MultipleImageSelect || _mediaPickerType==AJMediaPickerType_SingleImageSelectWithCropper) {
+            mediaOptions.predicate = [NSPredicate predicateWithFormat:@"mediaType == %ld", PHAssetMediaTypeImage];//只获取图片
+        }
+        else if (_mediaPickerType==AJMediaPickerType_VideoSelect){
+            mediaOptions.predicate = [NSPredicate predicateWithFormat:@"mediaType == %ld", PHAssetMediaTypeVideo];//只获取video
+        }
+        
         
         /*
          所有图片或视频
          */
-        PHFetchOptions * allPhotosOptions = [[PHFetchOptions alloc] init];
-        allPhotosOptions.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"creationDate" ascending:NO]];//图片配置设置排序规则(时间倒序)
-        
-        if (_mediaPickerType==AJMediaPickerType_MultipleImageSelect || _mediaPickerType==AJMediaPickerType_SingleImageSelectWithCropper) {
-            allPhotosOptions.predicate = [NSPredicate predicateWithFormat:@"mediaType == %ld", PHAssetMediaTypeImage];//只获取图片
-        }
-        else if (_mediaPickerType==AJMediaPickerType_VideoSelect){
-            allPhotosOptions.predicate = [NSPredicate predicateWithFormat:@"mediaType == %ld", PHAssetMediaTypeVideo];//只获取video
-        }
-        
-        //获取所有图片资源
-        PHFetchResult *allPhotos = [PHAsset fetchAssetsWithOptions:allPhotosOptions];
+        PHFetchResult *allPhotos = [PHAsset fetchAssetsWithOptions:mediaOptions];
         
         if (allPhotos.count>0) {
             
@@ -252,15 +257,13 @@
                 
                 if ([collection isKindOfClass:[PHAssetCollection class]]) {
                     
-                    PHFetchResult *fetchResult=[PHAsset fetchAssetsInAssetCollection:(PHAssetCollection *)collection options:nil];
+                    PHFetchResult *fetchResult=[PHAsset fetchAssetsInAssetCollection:(PHAssetCollection *)collection options:mediaOptions];
                     if (fetchResult.count>0) {
                     
                         //组装mediaInfoModel
                         NSMutableArray * smartAlbumMediaInfoModelArray=[NSMutableArray array];
                         
                         for (PHAsset * asset in fetchResult) {
-                            
-                            if (((_mediaPickerType==AJMediaPickerType_MultipleImageSelect || _mediaPickerType==AJMediaPickerType_SingleImageSelectWithCropper) && asset.mediaType==PHAssetMediaTypeImage) || (_mediaPickerType==AJMediaPickerType_VideoSelect && asset.mediaType==PHAssetMediaTypeVideo)) {
 
                                 AJMPMediaInfoModel * mediaInfoModel=[[AJMPMediaInfoModel alloc]init];
                                 mediaInfoModel.asset=asset;
@@ -268,8 +271,6 @@
                                 
                                 //重装数据
                                 [self ergodicCurrentSelectedMediaInfoModelArrayWithMediaInfoModel:mediaInfoModel];
-                                
-                            }
                             
                         }
                         
@@ -298,7 +299,7 @@
                 
                 if ([collection isKindOfClass:[PHAssetCollection class]]) {
                     
-                    PHFetchResult *fetchResult=[PHAsset fetchAssetsInAssetCollection:(PHAssetCollection *)collection options:nil];
+                    PHFetchResult *fetchResult=[PHAsset fetchAssetsInAssetCollection:(PHAssetCollection *)collection options:mediaOptions];
                     if (fetchResult.count>0) {
                         
                         //组装mediaInfoModel
@@ -306,16 +307,12 @@
                         
                         for (PHAsset * asset in fetchResult) {
                             
-                            if (((_mediaPickerType==AJMediaPickerType_MultipleImageSelect || _mediaPickerType==AJMediaPickerType_SingleImageSelectWithCropper) && asset.mediaType==PHAssetMediaTypeImage) || (_mediaPickerType==AJMediaPickerType_VideoSelect && asset.mediaType==PHAssetMediaTypeVideo)) {
-                                
                                 AJMPMediaInfoModel * mediaInfoModel=[[AJMPMediaInfoModel alloc]init];
                                 mediaInfoModel.asset=asset;
                                 [userAlbumMediaInfoModelArray addObject:mediaInfoModel];
                                 
                                 //重装数据
                                 [self ergodicCurrentSelectedMediaInfoModelArrayWithMediaInfoModel:mediaInfoModel];
-                                
-                            }
                             
                         }
                         
